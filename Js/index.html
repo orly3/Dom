@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classes</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Classes</h1>
+  </header>
+  <main>
+    <section id="Ex1">
+      <p id="text" class="highlight">
+        This is a sample paragraph
+      </p>
+      <input type="text" id="classInput" placeholder="Enter class name">
+      <button onclick="addClass('class')">add class</button>
+    </section>
+    <section id="Ex2">
+      <p id="0" class="show">
+        This is paragraph 1
+      </p>
+      <p id="1" class="show">
+        This is paragraph 2
+      </p>
+      <p id="2" class="show">
+        This is paragraph 3
+      </p>
+      <button onclick="changeClass(0)">control paragraph 1</button>
+      <button onclick="changeClass(1)">control paragraph 2</button>
+      <button onclick="changeClass(2)">control paragraph 3</button>
+    </section>
+    <section id="Ex3">
+      <button id="btn" onclick="clicked()">click me</button>
+    </section>
+    <script src="./Dom.js"></script>
+  </main>
+  <footer>Orly Wallela</footer>
+</body>
+
+
+</html>

@@ -1,0 +1,59 @@
+/* #region General */
+/******************************
+      * General
+      ******************************/
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+/* #endregion */
+/* #region Header */
+/******************************
+      * Header
+      ******************************/
+h1 {
+  text-align: center;
+}
+
+/* #endregion */
+/* #region Main */
+/******************************
+      * Main
+      ******************************/
+section {
+  padding: 2%;
+  text-align: center;
+}
+
+/* #endregion */
+/* #region Footer */
+/******************************
+      * Footer
+      ******************************/
+footer {
+  text-align: center;
+}
+
+/* #endregion */
+/*#region Responsive
+    /* #endregion*/
